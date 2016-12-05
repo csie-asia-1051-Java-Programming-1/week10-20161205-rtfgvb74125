@@ -13,7 +13,6 @@ public class ex01 {
 		// TODO Auto-generated method stub
 
 		Scanner scn = new Scanner(System.in);
-		int x = 10;
 		String str[] = new String[10];
 		int data[] = new int[10];
 		for (int i = 0; i < data.length; i++) {
