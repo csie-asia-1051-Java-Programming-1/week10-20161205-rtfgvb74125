@@ -8,11 +8,12 @@ package hw;
  * Date: 2016/12/05
  * Author: 105021056 д¤оaож
  */
+import java.util.Scanner;
 public class hw03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
+			}
 
 }
