@@ -15,10 +15,11 @@ public class personooex03  {
 	}
 	
 	public void show(){
-		System.out.println(name+"\t"+sex+"\t"+hight+"\t"+weight+"\t"+(weight/Math.pow(hight, 2)));
+		
+		System.out.println(name+"\t"+sex+"\t"+hight+"\t"+weight+"\t"+(weight/(Math.pow((hight/100), 2))));
 	}
 	public float BMI(){
-		float BMI = weight/(float) Math.pow(hight, 2);
+		float BMI = (float) (weight/( Math.pow(hight, 2)));
 	return BMI;
 	}
 	
