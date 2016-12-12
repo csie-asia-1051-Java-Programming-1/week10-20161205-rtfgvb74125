@@ -36,10 +36,11 @@ public class ex03 {
 			}
 
 			 Arrays.sort(BMI);
-			
-			// 插入排序for (int i = 0; i < BMI.length; i++) {
-				//if()
-			//}
+//			float a [] = new float[BMI.length];
+//			 for (int i = 0; i < BMI.length; i++) {
+//				
+//				 
+//			}
 			for (int i = 0; i < BMI.length; i++) {// 拿出排列好的BMI
 				for (int j = 0; j < arr.size(); j++) {// 拿出student裡面的BMI
 					personooex03 sstu = arr.get(j);
